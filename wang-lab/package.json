@@ -1,0 +1,21 @@
+{
+  "name": "blockchain-lab",
+  "version": "1.0.0",
+  "description": "lab homepage",
+  "author": "sunshuai",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "element-ui": "^2.13.2",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {
+    "element-theme-chalk": "^2.12.0"
+  }
+}
