@@ -1,0 +1,50 @@
+[
+  {
+    "name": "achievements",
+    "path": "/achievements",
+    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\achievements.vue",
+    "chunkName": "pages/achievements"
+  },
+  {
+    "name": "events",
+    "path": "/events",
+    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\events.vue",
+    "chunkName": "pages/events"
+  },
+  {
+    "name": "friends",
+    "path": "/friends",
+    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\friends.vue",
+    "chunkName": "pages/friends"
+  },
+  {
+    "name": "join",
+    "path": "/join",
+    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\join.vue",
+    "chunkName": "pages/join"
+  },
+  {
+    "name": "members",
+    "path": "/members",
+    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\members.vue",
+    "chunkName": "pages/members"
+  },
+  {
+    "name": "resume-sunshuai",
+    "path": "/resume/sunshuai",
+    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\resume\\\\sunshuai.vue",
+    "chunkName": "pages/resume/sunshuai"
+  },
+  {
+    "name": "resume-zhangshuangfeng",
+    "path": "/resume/zhangshuangfeng",
+    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\resume\\\\zhangshuangfeng.vue",
+    "chunkName": "pages/resume/zhangshuangfeng"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
