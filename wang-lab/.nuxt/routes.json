@@ -30,18 +30,6 @@
     "chunkName": "pages/members"
   },
   {
-    "name": "resume-sunshuai",
-    "path": "/resume/sunshuai",
-    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\resume\\\\sunshuai.vue",
-    "chunkName": "pages/resume/sunshuai"
-  },
-  {
-    "name": "resume-zhangshuangfeng",
-    "path": "/resume/zhangshuangfeng",
-    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\resume\\\\zhangshuangfeng.vue",
-    "chunkName": "pages/resume/zhangshuangfeng"
-  },
-  {
     "name": "index",
     "path": "/",
     "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\index.vue",

@@ -1,63 +1,16 @@
 <template>
   <el-container direction="vertical">
-    <myheader index="/achievements"></myheader>
+    <myheader index="/"></myheader>
+
     <el-main class="main-content">
-
       <el-row :gutter="0" type="flex" justify="center">
-        <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12">
-          <h1>最新成果</h1>
-          <h3 style="margin-top: 10px">FedCoin: A Peer-to-Peer Payment System for Federated Learning</h3>
+        <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="14">
 
-          <p style="display: flex;align-items: center;margin-top: 20px">查看论文：
-            <el-link href="https://arxiv.org/abs/2002.11711" target="_blank">https://arxiv.org/abs/2002.11711</el-link>
-          </p>
-          <p style="display: flex;align-items: center;margin-top: 10px">在线实验：
-            <el-link href="http://demo.blockchain-neu.com" target="_blank">http://demo.blockchain-neu.com</el-link>
-          </p>
-
-          <p style="display: flex;align-items: center;margin-top: 10px">视频演示：</p>
-
-          <div style="width: 100%;text-align: center">
-            <video width="640" height="360" controls="controls" preload="metadata">
-              <source :src="'/FedCoin.mp4'" type="video/mp4">
-            </video>
+          <div class="group-wrapper animated bounceInDown">
+            <el-image class="group-bg" fit="fill" src="/Siat-Cloud.png"></el-image>
           </div>
-
-          <p style="display: flex;align-items: center;margin-top: 20px">备用播放地址1：
-            <el-link href="https://v.youku.com/v_show/id_XNDU2NjA5NzQ3Mg==.html" target="_blank">优酷</el-link>
-          </p>
-          <p style="display: flex;align-items: center;margin-top: 10px">备用播放地址2：
-            <el-link href="https://youtu.be/u5LPLdZvd0g" target="_blank">YouTube</el-link>
-          </p>
-
-          <br>
-
-          <h3 style="margin-top: 10px">Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains</h3>
-
-          <p style="display: flex;align-items: center;margin-top: 20px">查看论文：
-            <el-link href="https://arxiv.org/abs/2007.15145" target="_blank">https://arxiv.org/abs/2007.15145</el-link>
-          </p>
-
-          <p style="display: flex;align-items: center;margin-top: 10px">视频演示：</p>
-
-          <div style="width: 100%;text-align: center">
-            <video width="640" height="360" controls="controls" preload="metadata">
-              <source :src="'/POLE.mp4'" type="video/mp4">
-            </video>
-          </div>
-
+          
           <el-divider></el-divider>
-
-
-                   <h1>编写书籍</h1>
-
-                   <ul>
-                     <li v-for="item in books" class="item">
-                       {{item}}
-                     </li>
-                   </ul>
-
-          <el-divider><i class="el-icon-notebook-2"></i></el-divider>
 
           <h1>发表论文</h1>
 
@@ -109,55 +62,8 @@
             </li>
           </ul>
 
-          <h3>2015</h3>
-
-          <ul>
-            <li v-for="item in papers2015" class="item animated zoomIn">
-              {{item}}
-            </li>
-          </ul>
-
-          <h3>2014</h3>
-
-          <ul>
-            <li v-for="item in papers2014" class="item animated zoomIn">
-              {{item}}
-            </li>
-          </ul>
-
-          <h3>2013</h3>
-
-          <ul>
-            <li v-for="item in papers2013" class="item animated zoomIn">
-              {{item}}
-            </li>
-          </ul>
-
-          <h3>2012</h3>
-
-          <ul>
-            <li v-for="item in papers2012" class="item animated zoomIn">
-              {{item}}
-            </li>
-          </ul>
-
-          <h3>2011</h3>
-
-          <ul>
-            <li v-for="item in papers2011" class="item animated zoomIn">
-              {{item}}
-            </li>
-          </ul>
-
                    <el-divider><i class="el-icon-copy-document"></i></el-divider>
 
-          <h1>获得奖项</h1>
-
-          <ul>
-            <li v-for="item in awards" class="item">
-              {{item}}
-            </li>
-          </ul>
         </el-col>
       </el-row>
     </el-main>
@@ -175,78 +81,70 @@
     data() {
       return {
         papers2021: [
-          'Yixiao Lan, Yuan Liu, Boyang Li, Chunyang Miao. Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains (Demo).The 35th AAAI Conference IEEE International Conference on Artificial Intelligence (AAAI), 2021, Demo paper CCF A类'
+          'Huan Tang, Yang Wang, Xi Chen “Network-flow Algorithms for Virtual Service Placements in Mobile Edge Network”, IEEE the 6th International Conference on Cloud Computing and Big Data Analytics (ICCCBDA), Chengdu, China, April 24-26, 2021.',
+          'Yang Wang, Yong Zhang, Xinxin Han, Pengfei Wang, Chengzhong Xu, Joseph Horton, and Joseph Culberson, “Cost-Driven Data Caching in the Cloud: An Analytic Approach”, IEEE International Conference on Computer Communications (IEEE INFOCOM2021), May 10-13 2021 (CCF A).',
+          'Xinxin Han, Guichen Gao, Yang Wang, Yong Zhang, “Online Data Caching in Edge Computing”, Concurrency and Computation: Practice and Experience (CPE), 2021 (CCF C).',
+          'Min Li, Yang Wang,Junbiao Dai, and Qingshan Jiang,“A Data Self-Contained DNA Storage System” Nature Scientifific Report, 2020 (Major Revision).',
+          'Wen Cheng, Yuqi Zou, Lingfang Zeng, Yang Wang, “Hercules: Intelligent Coupling of Dual-Mode Flash Memory and Hard Disk Drive”, The Computer Journal 64(2),Pages 224–235, February 2021 (CCF B).',
+          'Zhiyong Ye, Yang Wang, Shuibing He, Chengzhong Xu, and Xianhe Sun,“Sova: A Softwaredefined Autonomic Framework for Virtual Network Allocations”, IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS), 32(1):116-129, 2021 (CCF A).',
+          'Yang Wang, Hao Dai, Xinxin Han, Pengfei Wang, Yong Zhang, Chengzhong Xu. “Cost-Driven Data Caching in Content Delivery Edges”, IEEE Transactions on Mobile Computing (IEEE TMC), 2021 (CCF A) (Major Revision).',
+          'Yuhang Liu, Xian-He Sun, Yang Wang, and Yugang Bao, “HCDA: from Computational Thinking to a Generalized Thinking Paradigm”, Communications of the ACM (ACM CACM), 64(5) 2021 (CCF A).',
         ],
         papers2020: [
-          'Zhengpeng Ai, Yuan Liu, Xingwei Wang. ABC: An auction-based Blockchain Consensus-Incentive Mechanism. The 26th IEEE International Conference on Parallel and Distributed Systems (ICPADS 2020), 2020 (Invited). CCF C类',
-          'Yuan Liu, Zhengpeng Ai, Mengmeng Tian, Guibing Guo, Linying Jiang. DSBFT: A Delegation based Scalable Byzantine False Tolerance Consensus Mechanism. The 20th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2020). CCF C类',
-          'Yixiao Lan, Yuan Liu, Boyang Li. Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains. in CoRR abs/2007.15145, 2020',
-          'Yuan Liu, Shuai Sun, Zhengpeng Ai, Shuangfeng Zhang, Zelei Liu, Han Yu. FedCoin: A Peer-to-Peer Payment System for Federated Learning. in arXiv, 2020',
-          'Shuangfeng Zhang, Yuan Liu, Xingren Chen, Xin Zhou. A POMDP-based Method for Analyzing Blockchain System Security Against Long Delay Attack (Extended Abstract). The 19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2020) .CCF B类',
-          'Zhizhao Zhang, Tianzhi Yang, Yuan Liu. SABlockFL: A Blockchain-based Smart Agent System Architecture and Its Application in Federated Learning. International Journal of Crowd Science, 2020',
+          'Hongshuai Ren, Yang Wang, Chengzhong Xu, and Xi Chen “SMig-RL: An Evolutionary Migration Framework for Cloud Services Based on Deep Reinforcement Learning”, ACM Transactions on Internet Technology (ACM TOIT), 20(4):43:1-43:18, 2020 (CCF B).',
+          'Yang Wang, Shan Cao, Hongshuai Ren, Jianjun Li, Kejiang Ye, and Chengzhong Xu, “Towards Cost-Effective Service Migration in Mobile Edge: A Q-Learning Approach”, Journal of Parallel and Distributed Computing (JPDC), Volume 146, December 2020, Pages 175-188 (CCF B).',
+          'Wen Cheng, Tao Guo, Lingfang Zeng, Yang Wang, Lars Nagel, Tim S¨uß, and Andr´e Brinkmann, “Improving LSM-trie Performance by Adopting Parallel Search”, Software: Practice and Experience (SPE), 50:1952–1965, 2020 (CCF B).',
+          'Wen Cheng, Ran Cai, Lingfang Zeng, Dan Feng, Andr´e Brinkmann, and Yang Wang, “IMCI: A Efficient Fingerprint Retrieval Approach based on 3D Stacked Memory”, Science China, Information Sciences (SCI Letter), 63(7), 2020 (CCF B).',
+          'Mingzhe Du, Yang Wang, Kejiang Ye, and Chengzhong Xu, “Algorithmics of Cost-Driven Computation Offloading in the Edge”, IEEE Transactions on Computers (IEEE TC), 69(10): 1519-1532, October, 2020 (CCF A).',
+          'Xinxin Han, Guichen Gao, Yang Wang, Hing-Fung Ting, Yong Zhang “Data Caching Based Transfer Optimization in Large Scale Networks” the Joint International Conference PDCATPAAP 2020, Shenzhen, China, December 28-30, 2020.',
+          'Xiaopeng Fan, Xinchun Liu, Yang Wang, Youjun Wang, Jiang Li, “Optimizing Mulit-way Theta Join for Data Skew in Sub-second Stream Computing”, the 26th IEEE International Conference on Parallel and Distributed Systems (ICPADS 2020) December 2-4, 2020, Hong Kong (CCF C).',
+          'Tongzheng Sun, Jingpan Xiong, Yang Wang, Xiaopeng Fan, Xi Chen, and Chengzhong Xu, “RS-pCloud: A Peer-to-Peer Based Edge-Cloud System for Fast Remote Sensing Image Processing”, IEEE Edge 2020, October 19 – 23, 2020, Best Student Paper Award.',
+          'Ziyue Hu, Xiaopeng Fan, Yang Wang, Chengzhong Xu “FastThetaJoin: A Multi-way Data Stream Theta-Join Range Constraint Optimization Method”, 20th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2020), October 2 – 4, New York, USA (CCF C).',
+          'Zhi Liu, Haowen Wu, Tongxin Bai, Yang Wang, Chengzhong Xu, “DuoSQL: Towards Elastic Data Warehousing with Decoupled Data Management and Computation”, 4th International Conference on Cloud and Big Data Computing (ICCBDC2020). August 26-28, 2020, Liverpool, United Kingdom.',
+          'Xinxin Han, Guichen Gao, Li Ning, Yang Wang, and Yong Zhang, “Approximation Algorithm for the Offloading Problem in Edge Computing”, The 15th international conference on algorithms, systems, and applications of wireless networks (WASA2020), Sept. 13-15, 2020, Qingdao, China (CCF C).',
+          'Ziyue Hu, Menglu Wu, Xiaopeng Fan, Yang Wang, Chengzhong Xu, “MCF: Towards Window-based Multiple Cuckoo Filters in Stream Computing”, International Conference on Big Data (Bigdata2020), June 22 - 26, 2020, Honolulu, Hawaii, USA.',
         ],
         papers2019: [
-          'Qianwei Zhuang, Yuan Liu Lisi Chen, Zhengpeng Ai. Proof of Reputation: A Reputation-based Consensus Protocol for Blockchain based Systems. 2019 International Electronics Communication Conference (IECC), 2019. EI',
-          'Tianzhi Yang, Yuan Liu. A Smart Agent based Blockchain Applicaiton Architecture. The 4th International Conference on Crowd Science and Engineering(ICCSE), 2019. EI ',
-          'Shuai Sun, Yuan Liu, Xingren Chen, Guibing Guo. A Privacy-preserving and Robust Reputation System based on Blockchain. The 17th IEEE International Symposium on Parallel and Distributed Processing with Applications(ISPA) 2019.CCF C类',
-          'Shuangfei Zhang, Yuan Liu, Xingren Chen. BIT Problem: Is There A Trade-off in the Performances of Blockchain Systems?. 2019 International Conference on Blockchain and Trustworthy Systems (BlockSys), 2019. EI',
+          'Kejiang Ye, Haiying Shen, Yang Wang, Cheng-Zhong Xu, “Consolidation of Multi-tier Workloads in the Cloud: Profiling, Modeling and Optimization”. IEEE Transactions on Cloud Computing (IEEE TCC), 2019 (CCF C).',
+          'Yang Wang, Shuibing He, Xiaopeng Fan, Chengzhong Xu and Xianhe Sun, “On Cost-Driven Collaborative Data Caching: A New Model Approach”, IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS), 30(3): 662-676, March 2019 (CCF A). ',
+          'Dong Huang, Xiaopeng Fan, Yang Wang, Shuibing He, and Chengzhong Xu, “DP-Greedy: A Two-Phased Caching System for Mobile Cloud Services”, IEEE Cluster 2019, September 23-26, 2019, Albuquerque, New Mexico, USA (CCF B).',
+          'Jinpeng Wang, Yang Wang, Hekang Wang, Kejiang Ye, Chengzhong Xu, Shuibing He, and Lingfang Zeng, “Towards Cluster-wide Deduplication based on Ceph”, the 14th IEEE International Conference on Networking, Architecture and Storage (NAS 2019), August 15– 17, 2019, Enshi, China.',
+          'Mingzhe Du, Yang Wang, Chengzhong Xu, “On Cost-Driven Computation Offloading in Edge Computing, A New Model Approach”, the 19th Annual IEEE/ACM International Symposium in Cluster, Cloud, and Grid Computing (CCGrid 2019), May 14-17, 2019, Larnaca, Cyprus (CCF C).',
         ],
         papers2018: [
-          'Zheng Zhao, Yuan Liu. A Blockchain based Identity Management System Considering Reputation. 2nd IEEE International Conference on Computer Systems, Electronics and Control(ICCSEC), 2018.EI ',
-          'Jin Bai, Yuan Liu. A Reputation Model Considering Buyer Subjectivity and Product Return Behavior. 2nd IEEE International Conference on Computer Systems, Electronics and Control(ICCSEC), 2018. EI',
-          'Guibing Guo, Tianzhi Yang, Yuan Liu, Search Engine Based Proper Privacy Protection Scheme. IEEE Access 6: 78551-78558,2018. SCI 1区',
+          'Lingfang Zeng, Wei Shi, Fan Ni, Song Jiang, Xiaopeng Fan, Chengzhong Xu and Yang Wang, “SHMstor: A Scalable Hadoop/MapReduce-based Storage System for Small-Write Efficiency”, International Conference on Ubiquitous Intelligence and Computing (UIC 2018), Oct. 8-11, 2018, Guangzhou, China (CCF C), Best Paper Award.',
+          'Shuibing He, Xian-he Sun, Yang Wang, and Chengzhong Xu, “A Migratory Heterogeneity Aware Data Layout Scheme for Parallel File Systems”, the 32nd IEEE International Parallel and Distributed Processing Symposium (IPDPS 2018), May 21 – 25, 2018, Vancouver, Canada (CCF B).',
         ],
         papers2017: [
-          'Yuan Liu, Jie Zhang, Quanyan Zhu, Xingwei Wang. CONGRESS: A Hybrid Reputation System for Coping with Rating Subjectivity, IEEE Transactions on Computational Social Systems, 2017. EI',
-          'Yuan Liu, Zheng Zhao, Guibing Guo, Xingwei Wang, Shuang Wang. An Identity Management System Based on Blockchain, 15th Annual Conference on Privacy, Security and Trust (PST), 2017.EI',
-          'Yuan Liu, Usman Shittu Chidawa, Guibing Guo, Xingwei Wang, Shuang Wang. A Reputation Model for Aggregating Ratings based on Beta Distribution Function. 2nd International Conference on Crowd Science and Engineering (ICCSE), 2017.EI',
-          'Yuan Liu, Jin Bai, Guibing Guo, Xingwei Wang, Zhenhua Tan. A Reputation Model Considering Repurchase Behavior and Mechanism Design to Promote Repurchase. The 10th International Conference on Security, Privacy and Anonymity in Computation, Communication and Storage (SpaCCS), 2017.EI',
-          'Ning Luo, Huaxun Deng, Linfeng Zhao, Yuan Liu, Xingwei Wang, Zhenhua Tan. Multi-aspect Feature based Neural Network Model in Detecting Fake Reviews. 4th International Conference on Information Science and Control Engineering (ICISCE), 2017.EI',
-          'Huaxun Deng, Lingfeng Zhao, Ning Luo, Yuan Liu, Xingwei Wang, Zhenhua Tan, Shuang Wang, and Fucai Zhou. Semi-supervised Learning based Fake Review Detection. IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA), 2017.EI',
+          'Yang Wang, Shuibing He, Xiaopeng Fan, Chengzhong Xu, Joseph Horton, and Joseph Culberson, “Data Caching in Next Generation Mobile Cloud Services”, the 46th International Conference on Parallel Processing (ICPP-2017), Aug. 14-17, 2017, Bristol, UK (CCF B).',
+          'Shan Cao, Chengzhong Xu and Yang Wang, “Service Migrations in the Cloud for Mobile Accesses: A Reinforcement Learning Approach”, the 12th IEEE International Conference on Networking, Architecture and Storage (NAS 2017), Aug. 7-9, 2017, Shenzhen, China.',
+          'Yang Wang and Kenneth B. Kent, “A Region-Based Approach to Pipeline Parallelism in Java Programs on Multicores”, the 25th Euromicro International Conference on Parallel, Distributed and Network-based Processing (Euro-PDP’17), March 6-8, 2017, St. Peterburg, Russia.',
+          'Lingfang Zeng, Zehao Zhang, Yang Wang, Dan Feng, and Kenneth B. Kent,“CosaFS: A Cooperative Shingle-Aware File System”, ACM Transactions on Storage (ACM TOS), 13(4): 34:1–34:23, Nov. 2017 (CCF A).',
+          'Lingfang Zeng, Yang Wang, Kenneth B. Kent, and Ziliang Xiao, “Naplus: A Software Distributed Shared Memory for Virtual Clusters in the Cloud”, Software: Practice and Experience (SPE), 47(9):1201-1220, 2017 (CCF B).',
+          'Lingfang Zeng, Yang Wang, Xiaopeng Fan, and Chengzhong Xu, “Raccoon: A Novel Network I/O Allocation Framework for Workload-Aware VM Scheduling in Virtual Environments”, IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS), 28(9): 2651 2662, 2017 (CCF A).',
+          'Yang Wang, Bharadwaj Veeravalli, Chen-Khong Tham, Shuibing He, and Chengzhong Xu,“On Service Migrations in the Cloud for Mobile Accesses: A Distributed Approach”, ACM Transactions on Autonomous and Adaptive System (ACM TAAS), 12(2): 6:1-6:25, May 2017 (CCF B).',
+          'Menglan Hu, Jun Luo, Yang Wang, and Bharadwaj Veeravalli, “Adaptive Online Scheduling of Task Graphs with Dynamic Resilience”, IEEE Transactions on Computers (IEEE TC), (66)1: 17-23, January, 2017 (CCF A).',
+          'Shuibing He, Yang Wang, Xian-He Sun, and Chengzhong Xu, “HARL: Optimizing Parallel File Systems with Heterogeneity-Aware Data Layout”, IEEE Transactions on Computers (IEEE TC), 66(6): 1048-1060, 2017 (CCF A).',
+          'Shuibing He, Yang Wang, Xian-He Sun, Chuanhe Huang, and Chengzhong Xu,“Heterogeneity Aware Collective I/O for Parallel I/O Systems with Hybrid HDD/SSD Servers”, IEEE Transactions on Computers (IEEE TC), 66(6): 1091-1098, June 2017 (CCF A).',
+          'Shuibing He, Yang Wang, Zhen Li, Xian-He Sun, and Chengzhong Xu, “Cost-Aware Region-Level Data Placement in Multi-Tiered Parallel I/O Systems”, IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS), 28(7): 1853-1865, July 2017 (CCF A).',
+          'Lingfang Zeng, Shijie Xu, Yang Wang, Kenneth B. Kent, David Bremner, and Chengzhong Xu,“Towards Cost-Effective Replica Placements in Cloud Storage Systems with QoS-Awareness”, Software Practice and Experience (SPE), 47(6): 813–829, June 2017 (CCF B).',
+          'Shuibing He, Yang Wang, Xian-He Sun, and Chengzhong Xu, “Using MinMax-Memory Claims to Improve In-Memory Workflow Computations in the Cloud”, IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS), 28(4): 1202-1214, April 2017 (CCF A).,'
         ],
         papers2016: [
-          'Zhenhua Tan, Jingyu Ning, Yuan Liu, Xingwei Wang, Guangming Yang, Wei Yang. ECRModel: an Elastic Collusion-based Rumor-Propagation Model in Online Social Networks, IEEE Access, 2016. SCI 一区',
-          'Yuan Liu, Chunyan Miao. A Survey of Incentives and Mechanism Design for Human Computation Systems, CoRR abs/1602.03277, 2016.',
-          'Qiong Wu, Siyuan Liu, Chunyan Miao, Yuan Liu, Cyril Leung. A Social Curiosity Inspired Recommendation Model to Improve Precision, Coverage and Diversity. In Proceedings of the 2016 IEEE/WIC/ACM International Conference on Web Intelligence (WI), 2016.EI',
-          'Zhenhua Tan, Yicong Niu, Yuan Liu, and Guangming Yang. A Novel Trust Model Based on SLA and Behavior Evaluation for Clouds. In Proceedings of the 2016 Annual Privacy, Security and Trust Conference (PST) 2016 EI',
+          'Shuibing He, Yang Wang, and Xian-He Sun, “Improving Performance of Parallel I/O Systems through Selective and Layout-Aware SSD Cache”, IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS), 27(10): 2940-2952, Oct. 2016 (CCF A).',
+          'Mengfei Peng, Wei Shi, Jean-Pierre Corriveau, Richard Pazzi, and Yang Wang, “Black Hole Search in Computer Networks: Achievements, Challenges and Future Directions”, Journal of Parallel and Distributed Systems (JPDC), 88(2): 1-15, February 2016 (CCF B).',
+          'Shuibing He, Yan Liu, Yang Wang, and Xian-He Sun, “Enhancing Hybrid Parallel File System through Performance and Space-Aware Data layout ”, International Journal of High Performance Computing and Application (IJHPCA), 30(4): 396-410, Nov. 2016 (SCI).',
+          'Shuibing He, Yang Wang, and Xian-He Sun, “Boosting Parallel File System Performance via Heterogeneity-Aware Selective Data Layout”, IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS), 27(9): 2492-2505, Sept. 2016 (CCF A).',
+          'Lingfang Zeng, Shijie Xu, and Yang Wang, “VMBackup: an efficient framework for online virtual machine image backup and recovery”, Concurrency and Computation: Practice and Experience (CPE) 28(9): 2630-2643, June 2016 (CCF C).',
+          'Yang Wang, Wei Shi, and Kenneth B. Kent, “On Optimal Parallel Scheduling Algorithms for Well-Structured Workflows in the Cloud with Budget and Deadline Constraints”, Parallel Processing Letters (PPL), 26(2), 2016 (EI).',
+          'Yan Liu, Bin Guo, Yang Wang, Wenle Wu, Zhiwen Yu, and Daqing Zhang, “TaskMe: MultiTask Allocation in Mobile Crowd Sensing”, Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp’16), September 12-16, 2016, Heidelberg, Germany (CCF A).',
+          'Yang Wang, Shuibing He, Fuji Ren, Lujia Wang, and Chengzhong Xu, “On Autonomous Service Migrations in the Cloud for Mobile Accesses”, the 22nd IEEE International Conference on Parallel and Distributed Systems (ICPADS 2016), December 13-16, 2016, Wuhan, China (CCF C).',
+          'Xing Liu, Song Jiang, Yang Wang and Chengzhong Xu, “Hitchhike: an I/O Scheduler Enabling Writeback for Small Synchronous Writes”, the 7th International Conference on Cloud Computing and Big Data (CCBD 2016), November 16-18, 2016, Macau, China.',
+          'Dayal Dilli, Kenneth B. Kent, Yang Wang, and Chengzhong Xu, “A Low Disk Bound Transaction Logging System for In-Memory Distributed Data Stores”, IEEE Cluster, Sept. 12-16, 2016, Taipei, China (CCF C), Best Paper Award Nominee.',
+          'Yan Liu, Bin Guo, Wenle Wu, Zhiwen Yu, Yang Wang, and Daqing Zhang,“Towards a Multitask Worker Recruitment Framework for Mobile Crowdsensing”, the 14th ACM International Conference on Mobile Systems, Applications, and Services (MobiSys 2016), Jun. 25-30, 2016, Singapore (Poster Paper).',
+          'Yang Wang, Shuibing He, Chengzhong Xu, and Xian-He Sun,“On MinMax-Memory Claims for Scientific Workflows in the In-Memory Cloud Computing”, The 36th IEEE International Conference on Distributed Computing Systems (ICDCS 2016), Pages 731-732, June 27-30, 2016, Nara, Japan (Poster Paper).',
+          'Andrew Wylie, Wei Shi, Jean-Pierre Corriveau, and Yang Wang,“A Scheduling Algorithm for Hadoop MapReduce Workflows with Budget Constraints in the Heterogeneous Cloud”, The 5th International Workshop on Parallel and Distributed Computing for Large Scale Machine Learning and Big Data Analytics (ParLearning 2016) in conjunction with IPDPS 2016, May 27, 2016 Chicago, USA.',
 
-        ],
-        papers2015: [
-          'Yuan Liu, Jie Zhang, Bo An, Sandip Sen. A simulation framework for measuring robustness of incentive mechanisms and its implementation in reputation systems, Journal of Autonomous Agents and Multi-agent Systems (JAAMAS), 2015.CCF B类',
-          'Siyuan Liu, Chunyan Miao, Yuan Liu, Hui Fang, Han Yu, Jie Zhang, Yueting Chai, Cyril Leung: A Reputation Revision Mechanism to Mitigate the Negative Effects of Misreported Ratings. ICEC 2015: 7:1-7:8 EI',
-          'Siyuan Liu, Chunyan Miao, Yuan Liu, Han Yu, Jie Zhang, Cyril Leung, An Incentive Mechanism to Elicit Truthful Opinions for Crowdsourced Multiple Choice Consensus Tasks. WI-IAT (2) 2015: 96-103 EI',
-        ],
-        papers2014: [
-          'Yuan Liu “Towards the Design of Robust Incentive Mechanisms to Address Subjectivity and Dishonesty Problems in Agent Reporting”, PhD Thesis ',
-          'Yuan Liu, Jie Zhang, Han Yu, and Chunyan Miao “ Reputation-aware Continuous Double Auction ”, in proceedings of 28th International Conference AAAI Conference on Artificial Intelligence, Student Poster Program, 2014 CCF A类',
-          'Yuan Liu, Siyuan Liu, Hui Fang, Jie Zhang, Han Yu, and Chunyan Miao “ RepRev: Mitigating the Negative Effects of Misreported Ratings ”, in proceedings of 28th International Conference AAAI Conference on Artificial Intelligence, Student Poster Program, 2014 CCF A类',
-          'Yuan Liu, Jie Zhang, An Bo, and Sandip Sen “ A Practical Robustnesss Measure of Incentive Mechanisms ”, in proceedings of 13th International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2014 CCF B类 ',
-          'Zeinab Noorian, Mohsen Mohkami, Yuan Liu, Hui Fang, Julita Vassileva, and Jie Zhang. SocialTrust: Adaptive Trust Oriented Incentive Mechanism for Social Commerce. In Proceedings of the 2014 IEEE/WIC/ACM International Conference on Web Intelligence, 2014 EI',
-
-        ],
-        papers2013: [
-          'Yuan Liu, Jie Zhang “An incentive mechanism designed for e-marketplaces with limited inventory”, Electronic Commerce Research and Applications, 2013. SCI 二区',
-          'Zeinab Noorian, Jie Zhang, Yuan Liu, Stephen Marsh, and Michael Fleming “ Trust-Oriented Buyer Strategies for Seller Reporting and Selection in Competitive Electronic Marketplaces ”, Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS), 2013. CCF B类',
-          'Yuan Liu “Towards the Design of a Robust Incentive Mechanism for E-Marketplaces with Limited Inventory”, in International Joint Conference on Autonomous Agents and Multiagent Systems (AAMAS), Doctorial Consortium, 2013, pages 1441-1442. CCF B类 ',
-          'Yuan Liu, Jie Zhang “Robustness Evaluation of Incentive Mechanisms”, in International Joint Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2013 (short paper), pages 1293-1294. CCF B类',
-        ],
-        papers2012: [
-          'Yuan Liu, Qin Li, Jie Zhang. “Coalition Formation Game based Reputation System”, in ACM EC Workshop on Incentives and Trust in E-Commerce (WIT-EC2012). EI ',
-          'Yuan Liu, Jie Zhang, Qin Li. “Design of an Incentive Mechanism to Promote Honesty in E-marketplaces with Limited Inventory”, in the proceedings of 14th Annual International Conference on Electronic Commerce, Singapore (ICEC2012), pages 54-61. EI',
-          'Yuan Liu, Jie Zhang, Qin Li. “An Incentive Mechanism to Promote Honesty in E-marketplaces with Limited Inventory ”, in the proceedings of 6th IFIP WG 11.11 International Conference on Trust Management, Surat, India (IFIPTM2012), pages 209-216. EI',
-        ],
-        papers2011: [
-          'Yuan Liu, Jie Zhang, Quanyan Zhu. “Design of a Reputation System based on Dynamic Coalition Formation”, in the proceedings of Third International Conference on Social Informatics, Singapore (SocInfo2011), pages 135-144. EI',
-        ],
-        books: [
-          'Yuan Liu, Zhengpeng Ai, Shuai Sun, Zelei Liu, Han Yu. FedCoin: A Peer-to-Peer Payment System for Federated Learning. In Book: Yang Q., Fan L., Yu H. (eds) Federated Learning. Lecture Notes in Computer Science, vol 12500. Springer, Cham. https://doi.org/10.1007/978-3-030-63076-8_9',
-          'Yuan Liu, Shuangfeng Zhang, Xingren Chen. Blockchain Security Analysis: A POMDP-Based Approach for Analyzing Blockchain System Security Against the Long Delay Attack. Eliva Press. 2020, ISBN: 978-1952751332'
-        ],
-        awards: [
-          '2019年国际大学生数学建模竞赛二等奖',
-          '“建行杯”第五届辽宁省“互联网+”大学生创新创业竞赛银奖',
-          '2019年中国“互联网+”大学生创新创业竞赛东北大学校一等奖',
-          '2020年全国大学生英语竞赛国家级三等奖'
         ]
       }
     },

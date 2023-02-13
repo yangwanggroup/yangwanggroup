@@ -18,9 +18,9 @@
               </div>
             </el-col>
 
-            <el-col :span="2" class="hidden-xs-only">
-              <div class="logo">
-                <p style="">B&R</p>
+            <el-col :span="1" class="hidden-xs-only">
+              <div class="group-wrapper">
+                <el-image class="group-bg" src="/CCSLAB.png"></el-image>
               </div>
             </el-col>
 
@@ -61,34 +61,28 @@
         titles1: [
           {
             key: '/',
-            name_cn: '简介',
-            name_en: 'introduction'
+            name_cn: 'introduction'
           },
           {
             key: '/achievements',
-            name_cn: '学术成果',
-            name_en: 'achievements'
+            name_cn: 'achievements'
           },
           {
             key: '/members',
-            name_cn: '团队成员',
-            name_en: 'members'
+            name_cn: 'members'
           }],
         titles2: [
           {
             key: '/join',
-            name_cn: '加入我们',
-            name_en: 'join us'
+            name_cn: 'join us'
           },
           {
             key: '/events',
-            name_cn: '新闻活动',
-            name_en: 'events'
+            name_cn: 'events'
           },
           {
             key: '/friends',
-            name_cn: '友情链接',
-            name_en: 'friends'
+            name_cn: 'friends'
           }],
         mouseindex: ''
       }
@@ -129,7 +123,7 @@
 
   .logo {
     height: 100%;
-    min-width: 120px;
+    min-width: 100px;
     display: inline-flex;
     justify-content: center;
     align-items: center;

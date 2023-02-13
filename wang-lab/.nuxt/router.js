@@ -9,8 +9,6 @@ const _43a64363 = () => interopDefault(import('..\\pages\\events.vue' /* webpack
 const _4bb5cbbb = () => interopDefault(import('..\\pages\\friends.vue' /* webpackChunkName: "pages/friends" */))
 const _b9dd9918 = () => interopDefault(import('..\\pages\\join.vue' /* webpackChunkName: "pages/join" */))
 const _4b75e93f = () => interopDefault(import('..\\pages\\members.vue' /* webpackChunkName: "pages/members" */))
-const _0fc13d53 = () => interopDefault(import('..\\pages\\resume\\sunshuai.vue' /* webpackChunkName: "pages/resume/sunshuai" */))
-const _169dffd7 = () => interopDefault(import('..\\pages\\resume\\zhangshuangfeng.vue' /* webpackChunkName: "pages/resume/zhangshuangfeng" */))
 const _a1f22010 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -44,14 +42,6 @@ export const routerOptions = {
     path: "/members",
     component: _4b75e93f,
     name: "members"
-  }, {
-    path: "/resume/sunshuai",
-    component: _0fc13d53,
-    name: "resume-sunshuai"
-  }, {
-    path: "/resume/zhangshuangfeng",
-    component: _169dffd7,
-    name: "resume-zhangshuangfeng"
   }, {
     path: "/",
     component: _a1f22010,

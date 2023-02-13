@@ -14,44 +14,121 @@
 
           <el-divider></el-divider>
 
-          <h1>深圳先进院云计算与存储实验室</h1>
+          <h1>Cloud Computing and Storage Laboratory of Shenzhen Advanced Institute</h1>
           <p style="text-indent:2em">
-            深圳先进院云计算与存储实验室 (SIAT-CCSLab) 隶属于中国科学院深圳先进技术研究院数字所云计算中心，致力于包括云计算、虚拟化、大数据分析与处理、存储等领域在内的前沿技术，积累了丰富的技术成果和实验数据。CCSLab由王洋研究员带头指导，拥有博士后1名，博士2名，本校硕士若干以及来自中科大等高校的多名实习研究生。
-            毕业生去向包括美国罗切斯特大学以及阿里、腾讯、华为、百度等国内知名互联网企业。
+            Cloud Computing and Storage Laboratory of Shenzhen Advanced Institute (SIAT-CCSLab) is affiliated to the Cloud Computing Center of the Digital Institute of Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, and is committed to cutting-edge technologies including cloud computing, virtualization, big data analysis and processing, storage and other fields, and has accumulated rich technical achievements and experimental data. CCSLab is led by researcher Wang Yang, with 1 postdoctoral fellow, 2 doctors, several masters of the university, and a number of internship students from universities such as the University of Science and Technology of China.
+            Graduates go to the University of Rochester and well-known domestic Internet companies such as Ali, Tencent, Huawei, and Baidu.
           </p>
 
 
           <el-divider><i class="el-icon-lock"></i></el-divider>
 
-          <h1>研究方向</h1>
+          <h1>Research directions</h1>
 
           <ul>
             <li>
-              <h4>云环境下的系统虚拟化的安全与加速技术</h4>
+              <h4>Security and acceleration technologies for system virtualization in cloud environments</h4>
               <p>
-                针对混合共识方案、新型共识协议的工程实践、共识协议的性能提升等。混合共识方案主要基于学术界的最新成果提出创新与改进。新型共识协议的工程实践包括基于随机化算法的共识协议和基于DAG模式的共识协议。共识协议的性能提升，是指通过并行化处理传统共识协议，在维持协议正确性与活性的同时，高效利用多核机器的性能，进而使得传统BFT协议的性能获得提升，并适用于其他共识协议。
+                Engineering practice of hybrid consensus scheme, new consensus protocol, performance improvement of consensus protocol, etc. 
+                The hybrid consensus scheme is mainly based on the latest achievements of academia to propose innovations and improvements. The engineering practices of the new consensus protocol include consensus protocols based on randomization algorithms and consensus protocols based on DAG patterns. The performance improvement of consensus protocol refers to the parallel processing of traditional consensus protocol, while maintaining the correctness and activity of the protocol, and efficiently using the performance of multi-core machines, so that the performance of the traditional BFT protocol is improved and applied to other consensus protocols.
               </p>
             </li>
 
             <li>
-              <h4>面向机器学习的边云协同技术和方法</h4>
+              <h4>Edge-cloud collaboration technologies and methods for machine learning</h4>
               <p>
-                研究主要围绕账户模型下的隐私保护、无setup零知识证明、全同态加密算法的设计与应用。账户模型下的隐私保护需要同时满足：相关方和有权限的成员可看到信息的明文；不相关方从账本上只能看到无意义的加密信息；共识节点能够在加密信息上直接对交易合法性做判断，并对账户做相应操作。无setup零知识证明是对现有的zk-SNARK方案需要setup情形的改进。全同态加密是指在不解密前提下对密文进行任何原本在明文可行的运算，是同态加密算法的改进。
+                The research mainly focuses on the design and application of privacy protection, setup zero knowledge proof, and fully homomorphic encryption algorithms under the account model. The privacy protection under the account model needs to meet the requirements at the same time: the relevant parties and authorized members can see the clear text of the information; Unrelated parties can only see meaningless encrypted information from the ledger; The consensus node can directly judge the legitimacy of the transaction on the encrypted information and perform corresponding operations on the account. 
+                Setup-free zero-knowledge proofs are an improvement over the existing zk-SNARK scheme where setup is required. Fully homomorphic encryption refers to any operation on ciphertext that is originally feasible in plaintext without decryption, which is an improvement of the homomorphic encryption algorithm.
               </p>
             </li>
 
             <li>
-              <h4>区块链技术</h4>
+              <h4>Blockchain technology</h4>
               <p>
-                研究基于可信硬件的新型区块链架构。其基本思路是基于可信硬件，为解决机密保护和计算复杂性问题等提供通用的高性能解决方案。
+                Research on new blockchain architectures based on trusted hardware. 
+                The basic idea is to provide a general, high-performance solution based on trusted hardware to solve problems such as confidentiality protection and computational complexity.
               </p>
             </li>
 
             <li>
-              <h4>基于新型存储和网络技术的大数据框架优化方法</h4>
+              <h4>Big data framework optimization method based on new storage and network technology </h4>
               <p>
-                包括跨链数据检索和跨链资产交换。跨链数据检索可以为监管方在多链的条件下提供更强大的监管能力；跨链资产交换是去中心信任的原子交换。
+                Including cross-chain data retrieval and cross-chain asset exchange. 
+                Cross-chain data retrieval can provide regulators with stronger supervision capabilities under multi-chain conditions; 
+                Cross-chain asset exchange is a decentralized trust atomic swap.
               </p>
+            </li>
+
+          </ul>
+          <h1>Representative projects</h1>
+          <ul>
+            <li>
+              <h4>Human-machine-object integration cloud computing architecture and platform data-driven application adaptation and self-evolution technology（National Key R&D Program "Cloud Computing Big Data" Special Project, 2018--2021）</h4>
+              <p>
+                This project solves the three major problems and challenges of multi-dimensional programmability of cloud-network resources, dynamic discovery of cloud-network resources, and trusted collaboration of cloud-network resources, and is the bottleneck of human-machine-object integration as a new generation of information technology. This project proposes a software-defined method for human-machine-object integration, presents a set of software-defined infrastructure for human-machine-object integration, and establishes the basic theory, method and related technical system and specifications of software-defined for human-machine-object integration.
+            Main research content: 
+
+            （1）Based on the software-defined method, a cloud-network resource collaborative management architecture and performance optimization method for application adaptation are constructed.
+
+            （2）Sense and collect resource usage data from specific scenario applications; With the help of fusion and analysis methods, establish dynamic characteristics and prediction mechanisms of application resource usage.
+
+            （3）According to the dynamic operating environment and variable user requirements in specific scenarios, a distributed directory service is built to realize the tracking and management of mobile devices, and the computing technology based on the collaborative execution of cloud, network and end is completed by means of task migration and offloading.
+              </p>
+            </li>
+
+            <li>
+              <h4>Research on key technologies and platforms for intelligent driving driven by intelligence（Macao Key R&D Special Program , 2017-01--2020-12）</h4>
+              <p>
+                At present, the core functional requirements of multi-vehicle intelligent collaboration include: interconnection of any vehicle, any time and any place; Full-time and spatial dynamic traffic information collection and fusion; Effective coordination of people and roads - collaborative safety (divided into active safety and passive safety), collaborative control (divided into active control and passive control).
+                Research content:
+
+                （1）Driving scene recognition technology that integrates radar perception and visual perception
+
+                （2）Scenario knowledge base construction technology based on knowledge graph and event graph
+
+                （3）Driving rule generation and evolution technology based on reinforcement learning
+
+                （4）Multi-vehicle collaboration technology based on cognitive architecture, including multi-vehicle formation motion planning, multi-vehicle collision avoidance, and multi-vehicle competition consensus
+              </p>
+            </li>
+
+            <li>
+              <h4>Security control and trusted enhanced management system based on large-scale dynamic infrastructure（Research and development in key areas of Guangdong Province , 2018--2021）</h4>
+              <p>
+                This project focuses on the key technologies of network security boundary control:
+
+              （1）Research on the intelligent gateway technology based on security detection, automatically detect security problems through the system, and then implement the corresponding security isolation strategy based on the intelligent gateway
+
+              （2）The active security management technology based on concurrent migration of virtual machines is studied, and the strategy of concurrent migration of multiple virtual machines in the case of security problems is designed to improve the overall security and reliability of the system.
+              </p>
+            </li>
+
+            <li>
+              <h4>Research on data and service migration of mobile cloud computing in spatiotemporal big data environment（National nature on the project , 2017--2020）</h4>
+              <p>
+                Data and service migration is an effective way to reduce latency and network load and improve the quality of mobile cloud services. Faced with the diversification, real-time, and huge number of user access modes of cloud services in the big data environment, the current migration strategies and methods face serious challenges.
+
+                Objective: To propose an optimization method for data and service migration based on access spatiotemporal estimation, so that the deployment of shared data and services can match and adapt to the access patterns of mobile users, and complete the requested services in the least cost.
+              </p>
+            </li>
+
+          </ul>
+          <h1>Representative papers</h1>
+          <ul>
+            <li>
+              <h4>Cost-Driven Data Caching in the Cloud: An Analytic Approach, IEEE International Conference on Computer Communications</h4>
+            </li>
+
+            <li>
+              <h4>Sova: A Software-Defined Autonomic Framework for Virtual Network Allocations</h4>
+            </li>
+
+            <li>
+              <h4>Deadlock Avoidance Algorithms for Recursion-Tree Modeled Requests in Parallel Executions.</h4>
+            </li>
+
+            <li>
+              <h4>Algorithmics of Cost-Driven Computation Offloading in the Edge-Cloud Environment</h4>
             </li>
 
           </ul>
