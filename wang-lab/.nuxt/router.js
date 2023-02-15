@@ -6,7 +6,6 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _a79b6324 = () => interopDefault(import('..\\pages\\achievements.vue' /* webpackChunkName: "pages/achievements" */))
 const _43a64363 = () => interopDefault(import('..\\pages\\events.vue' /* webpackChunkName: "pages/events" */))
-const _4bb5cbbb = () => interopDefault(import('..\\pages\\friends.vue' /* webpackChunkName: "pages/friends" */))
 const _b9dd9918 = () => interopDefault(import('..\\pages\\join.vue' /* webpackChunkName: "pages/join" */))
 const _4b75e93f = () => interopDefault(import('..\\pages\\members.vue' /* webpackChunkName: "pages/members" */))
 const _a1f22010 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
@@ -30,10 +29,6 @@ export const routerOptions = {
     path: "/events",
     component: _43a64363,
     name: "events"
-  }, {
-    path: "/friends",
-    component: _4bb5cbbb,
-    name: "friends"
   }, {
     path: "/join",
     component: _b9dd9918,
