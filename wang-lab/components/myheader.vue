@@ -3,7 +3,6 @@
     <div class="navi-wrapper">
       <div class="navi-background">
 
-
         <div class="content">
           <el-row :gutter="0" type="flex" justify="center">
 
@@ -66,23 +65,15 @@
           {
             key: '/achievements',
             name_cn: 'achievements'
-          },
-          {
-            key: '/members',
-            name_cn: 'members'
           }],
         titles2: [
           {
+            key: '/members',
+            name_cn: 'members'
+          },
+          {
             key: '/join',
             name_cn: 'join us'
-          },
-          {
-            key: '/events',
-            name_cn: 'events'
-          },
-          {
-            key: '/friends',
-            name_cn: 'friends'
           }],
         mouseindex: ''
       }

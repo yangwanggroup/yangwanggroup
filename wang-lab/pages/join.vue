@@ -6,32 +6,30 @@
         <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12">
 
           <p>
-            如果你认为自己很优秀，实验室会让你学会独立思考成就思辨的人生，如果你认为自己不够优秀，实验室会让你自信地走向优秀
+            If you think you are good, the laboratory will allow you to learn to think independently to achieve a critical life, and if you think you are not good enough, the laboratory will make you confidently go to excellence.
           </p>
 
           <el-divider><i class="el-icon-user"></i></el-divider>
 
-          <h1>招收对象</h1>
-
-          <p>硕士研究生和高年级本科生.</p>
+          <h1>join us</h1>
 
           <ul>
             <li>
-              <h4>科研类</h4>
-              <p> 采用1+1+1的模式：为每1位优秀的研究生配备1位校外导师（国外优秀的研究学者，或企业研究人员，或校内高校优秀学者）和1位高年级的本科生</p>
-            </li>
-
-            <li>
-              <h4>竞赛项目类</h4>
-              <p>科研培预，以赛促研：本组每年5月份和11月份面向大二大三本科生招募，经过遴选后，按照能力和兴趣进入科研型课题组，培育0.5-1年，开始申报项目或组队参加比赛.</p>
+              <p> CCSLab can recruit 2 master's students, 1 doctoral student and guest students from other universities every year, welcome all students to take the same examination or come to the internship, and sincerely invite universities, scientific research units and enterprises to come to exchange and cooperate.</p>
             </li>
           </ul>
+          <h1>address</h1>
 
+          <ul>
+            <li>
+              <p> 10th Floor, Building F, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, No. 1068 Xueyuan Avenue, Nanshan District, Shenzhen, Guangdong Province</p>
+            </li>
+          </ul>
           <el-divider><i class="el-icon-message"></i></el-divider>
 
-          感兴趣的同学请发送简历至
+          Email:
 
-          <el-link href="mailto:liuyuan@swc.neu.edu.cn" target="_blank">liuyuan@swc.neu.edu.cn</el-link>
+          <el-link href="mailto:yang.wang1@siat.ac.cn" target="_blank">yang.wang1@siat.ac.cn</el-link>
 
         </el-col>
       </el-row>
