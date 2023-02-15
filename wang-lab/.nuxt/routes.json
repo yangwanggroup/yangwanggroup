@@ -2,36 +2,31 @@
   {
     "name": "achievements",
     "path": "/achievements",
-    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\achievements.vue",
-    "chunkName": "pages/achievements",
-    "_name": "_a79b6324"
+    "component": "E:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\achievements.vue",
+    "chunkName": "pages/achievements"
   },
   {
     "name": "events",
     "path": "/events",
-    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\events.vue",
-    "chunkName": "pages/events",
-    "_name": "_43a64363"
+    "component": "E:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\events.vue",
+    "chunkName": "pages/events"
   },
   {
     "name": "join",
     "path": "/join",
-    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\join.vue",
-    "chunkName": "pages/join",
-    "_name": "_b9dd9918"
+    "component": "E:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\join.vue",
+    "chunkName": "pages/join"
   },
   {
     "name": "members",
     "path": "/members",
-    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\members.vue",
-    "chunkName": "pages/members",
-    "_name": "_4b75e93f"
+    "component": "E:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\members.vue",
+    "chunkName": "pages/members"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_a1f22010"
+    "component": "E:\\\\yangwanggroup\\\\wang-lab\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

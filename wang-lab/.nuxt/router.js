@@ -4,11 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _a79b6324 = () => interopDefault(import('..\\pages\\achievements.vue' /* webpackChunkName: "pages/achievements" */))
-const _43a64363 = () => interopDefault(import('..\\pages\\events.vue' /* webpackChunkName: "pages/events" */))
-const _b9dd9918 = () => interopDefault(import('..\\pages\\join.vue' /* webpackChunkName: "pages/join" */))
-const _4b75e93f = () => interopDefault(import('..\\pages\\members.vue' /* webpackChunkName: "pages/members" */))
-const _a1f22010 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _4bea2e66 = () => interopDefault(import('..\\pages\\achievements.vue' /* webpackChunkName: "pages/achievements" */))
+const _05c45dfc = () => interopDefault(import('..\\pages\\events.vue' /* webpackChunkName: "pages/events" */))
+const _65fd9cd3 = () => interopDefault(import('..\\pages\\join.vue' /* webpackChunkName: "pages/join" */))
+const _7e1fe100 = () => interopDefault(import('..\\pages\\members.vue' /* webpackChunkName: "pages/members" */))
+const _49a7b279 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -23,23 +23,23 @@ export const routerOptions = {
 
   routes: [{
     path: "/achievements",
-    component: _a79b6324,
+    component: _4bea2e66,
     name: "achievements"
   }, {
     path: "/events",
-    component: _43a64363,
+    component: _05c45dfc,
     name: "events"
   }, {
     path: "/join",
-    component: _b9dd9918,
+    component: _65fd9cd3,
     name: "join"
   }, {
     path: "/members",
-    component: _4b75e93f,
+    component: _7e1fe100,
     name: "members"
   }, {
     path: "/",
-    component: _a1f22010,
+    component: _49a7b279,
     name: "index"
   }],
 
