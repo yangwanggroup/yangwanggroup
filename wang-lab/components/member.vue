@@ -3,7 +3,7 @@
   <div class="container  animated flipInX">
 
 
-    <div style="height: 150px;width: 150px;display:flex;justify-content:center;align-items:center">
+    <div style="height: 150px;width: 110px;display:flex;justify-content:center;align-items:center">
       <el-avatar
         style="font-size: 10rem;border: 1px solid darkgrey"
         :size="148"
