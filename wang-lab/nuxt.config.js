@@ -12,7 +12,7 @@ export default {
       {hid: 'author', name: 'author', content: 'sunshuai'}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/CCSLAB'}
+      {rel: 'icon', type: 'image/x-icon', href: '/CCSLAB.png'}
     ],
     script: [
       {src:'https://hm.baidu.com/hm.js?ed6db3061be10c22ccc4ec93a082d12d'}

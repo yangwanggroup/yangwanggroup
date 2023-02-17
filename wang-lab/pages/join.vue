@@ -12,17 +12,19 @@
           <el-divider><i class="el-icon-user"></i></el-divider>
 
           <h1>join us</h1>
-
           <ul>
             <li>
-              <p> CCSLab can recruit 2 master's students, 1 doctoral student and guest students from other universities every year, welcome all students to take the same examination or come to the internship, and sincerely invite universities, scientific research units and enterprises to come to exchange and cooperate.</p>
+              <h4> 
+              CCSLab can recruit 2 master's students, 1 doctoral student and guest students from other universities every year, welcome all students to take the same examination or come to the internship, and sincerely invite universities, scientific research units and enterprises to come to exchange and cooperate.
+              </h4>
             </li>
           </ul>
           <h1>address</h1>
-
           <ul>
             <li>
-              <p> 10th Floor, Building F, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, No. 1068 Xueyuan Avenue, Nanshan District, Shenzhen, Guangdong Province</p>
+              <h4> 
+              10th Floor, Building F, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, No. 1068 Xueyuan Avenue, Nanshan District, Shenzhen, Guangdong Province
+              </h4>
             </li>
           </ul>
           <el-divider><i class="el-icon-message"></i></el-divider>
