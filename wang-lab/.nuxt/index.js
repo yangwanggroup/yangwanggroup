@@ -65,7 +65,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"区块链研究组","meta":[{"charset":"utf-8"},{"hid":"description","name":"description","content":""},{"hid":"keywords","name":"keywords","content":"blockchain"},{"hid":"author","name":"author","content":"sunshuai"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"https:\u002F\u002Fhm.baidu.com\u002Fhm.js?ed6db3061be10c22ccc4ec93a082d12d"}],"style":[]},
+    head: {"title":"CCSLab","meta":[{"charset":"utf-8"},{"hid":"description","name":"description","content":""},{"hid":"keywords","name":"keywords","content":"blockchain"},{"hid":"author","name":"author","content":"sunshuai"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002FCCSLAB"}],"script":[{"src":"https:\u002F\u002Fhm.baidu.com\u002Fhm.js?ed6db3061be10c22ccc4ec93a082d12d"}],"style":[]},
 
     router,
     nuxt: {

@@ -4,7 +4,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: '区块链研究组',
+    title: 'CCSLab',
     meta: [
       {charset: 'utf-8'},
       {hid: 'description', name: 'description', content: process.env.npm_package_description || ''},
@@ -12,7 +12,7 @@ export default {
       {hid: 'author', name: 'author', content: 'sunshuai'}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+      {rel: 'icon', type: 'image/x-icon', href: '/CCSLAB'}
     ],
     script: [
       {src:'https://hm.baidu.com/hm.js?ed6db3061be10c22ccc4ec93a082d12d'}

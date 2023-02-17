@@ -4,7 +4,7 @@
       <div class="navi-background">
 
         <div class="content">
-          <el-row :gutter="0" type="flex" justify="center">
+          <el-row :gutter="2" type="flex" justify="center">
 
             <el-col :xs="11" :sm="10" :md="9" :lg="8" :xl="7">
               <div v-for="item in titles1"
@@ -52,7 +52,7 @@
     props: {
       index: {
         type: String,
-        default: 'introduction'
+        default: 'INTRODUCTION'
       }
     },
     data() {
@@ -60,20 +60,24 @@
         titles1: [
           {
             key: '/',
-            name_cn: 'introduction'
+            name_cn: 'INTRODUCTION'
           },
           {
             key: '/achievements',
-            name_cn: 'achievements'
+            name_cn: 'ACHIEVEMENTS'
           }],
         titles2: [
           {
             key: '/members',
-            name_cn: 'members'
+            name_cn: 'MEMBERS'
           },
           {
             key: '/join',
-            name_cn: 'join us'
+            name_cn: 'JOIN US'
+          },
+          {
+            key: '/events',
+            name_cn: 'EVENTS'
           }],
         mouseindex: ''
       }
@@ -127,7 +131,7 @@
 
   .title-item {
     display: table;
-    width: 33%;
+    width: 40%;
     height: 100%;
     text-align: center;
   }
