@@ -165,6 +165,15 @@
           ></member>
 
           <member
+            name="Jiahua Huang"
+            avatar="/avatar/huangjiahua.jpg"
+            letter="H"
+            position="Master's degree of 2020"
+            email=""
+            description="Formal student,He is currently studying at Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, majoring in computer technology and focusing on large-scale cluster resource scheduling."
+          ></member>
+
+          <member
             name="Lingdan Shao"
             avatar="/avatar/shaolingdan.jpg"
             letter="B"
