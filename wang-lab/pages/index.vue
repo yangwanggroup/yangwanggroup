@@ -11,6 +11,7 @@
             <el-image class="group-bg" fit="fill" src="/group2.jpg"></el-image>
             <el-image class="group-ph" src="/group2.jpg"></el-image>
           </div>
+          
 
           <el-divider></el-divider>
 

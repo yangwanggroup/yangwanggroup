@@ -12,7 +12,7 @@
           
           <el-divider></el-divider>
 
-          <h1>发表论文</h1>
+          <h1>Published papers</h1>
 
           <h3>2021</h3>
 
