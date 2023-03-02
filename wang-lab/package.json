@@ -1,8 +1,8 @@
 {
-  "name": "blockchain-lab",
+  "name": "CCSLAB",
   "version": "1.0.0",
   "description": "lab homepage",
-  "author": "sunshuai",
+  "author": "yifei",
   "private": true,
   "scripts": {
     "dev": "nuxt",
