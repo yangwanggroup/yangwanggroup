@@ -1,0 +1,19 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/achievements.js": "pages/achievements.js",
+    "pages/events.js": "pages/events.js",
+    "pages/index.js": "pages/index.js",
+    "pages/join.js": "pages/join.js",
+    "pages/members.js": "pages/members.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/achievements.js": "pages/achievements.js.map",
+    "pages/events.js": "pages/events.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/join.js": "pages/join.js.map",
+    "pages/members.js": "pages/members.js.map",
+    "server.js": "server.js.map"
+  }
+}
