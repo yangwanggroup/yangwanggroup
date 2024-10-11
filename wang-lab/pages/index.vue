@@ -67,7 +67,7 @@
               <h4>Human-machine-object integration cloud computing architecture and platform data-driven application adaptation and self-evolution technology（National Key R&D Program "Cloud Computing Big Data" Special Project, 2018--2021）</h4>
               <p>
                 This project solves the three major problems and challenges of multi-dimensional programmability of cloud-network resources, dynamic discovery of cloud-network resources, and trusted collaboration of cloud-network resources, and is the bottleneck of human-machine-object integration as a new generation of information technology. This project proposes a software-defined method for human-machine-object integration, presents a set of software-defined infrastructure for human-machine-object integration, and establishes the basic theory, method and related technical system and specifications of software-defined for human-machine-object integration.
-            Main research content: 
+            Main research content: ABC
 
             （1）Based on the software-defined method, a cloud-network resource collaborative management architecture and performance optimization method for application adaptation are constructed.
 
